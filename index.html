@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Hero Reveal - Vanilla</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="alice-page">
+      <section class="split-reveal" aria-label="Welcome reveal hero template">
+        <section class="split-reveal__underlay hero-underlay">
+          <div class="hero-underlay__split" aria-hidden="true">
+            <div class="hero-underlay__left"></div>
+            <div class="hero-underlay__right"></div>
+          </div>
+
+          <div class="split-reveal__content hero-content">
+            <p class="hero-reveal-item hero-eyebrow">HERO TEMPLATE</p>
+
+            <h1 class="hero-reveal-item hero-title">Bold &amp; WebDevii Hero Section</h1>
+
+            <p class="hero-reveal-item hero-body">
+              This is a clean, stylish hero template built to stand. Comment "CODE" and get the
+              full source code for free.
+            </p>
+
+            <div class="hero-reveal-item hero-actions">
+              <a href="#" class="btn btn--primary">Get Started</a>
+              <a href="#" class="btn btn--secondary">Learn More</a>
+            </div>
+
+            <div class="hero-reveal-item hero-stats">
+              <div class="stat">
+                <span class="stat__value">01</span>
+                <span class="stat__label">Clean Layout</span>
+              </div>
+              <div class="stat">
+                <span class="stat__value">02</span>
+                <span class="stat__label">High Contrast</span>
+              </div>
+              <div class="stat">
+                <span class="stat__value">03</span>
+                <span class="stat__label">Reusable</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <header class="split-reveal__panel">
+          <div class="split-reveal__title">
+            <div class="split-reveal__word-wrap" role="img" aria-label="WELCOME">
+              <p class="split-reveal__word-part split-reveal__word-part--top" aria-hidden="true">
+                WELCOME
+              </p>
+              <p class="split-reveal__word-part split-reveal__word-part--bottom" aria-hidden="true">
+                WELCOME
+              </p>
+            </div>
+          </div>
+        </header>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
